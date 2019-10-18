@@ -92,7 +92,7 @@ function drawSunburst(data) {
     .on("mouseout", function(d) {
       d3.select(this).classed("blue", false);
     })
-    
+
     //click functions
     .on("click", function(d) {
       //set up inner circle
