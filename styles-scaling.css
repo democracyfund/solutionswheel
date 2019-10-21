@@ -124,8 +124,8 @@ a:hover, a:active, .linkish:hover, .linkish:active {
 #ex {
   position: absolute;
   align-items: center;
-  width: 95vw;
-  height: 95vh;
+  width: 95%;
+  height: 95%;
   margin: 2.5vw;
   max-width: 940px;
   justify-content: center;
