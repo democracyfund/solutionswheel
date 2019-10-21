@@ -47,12 +47,18 @@ function exBye() {
   document.getElementById('ex').setAttribute("style", "display: none;");
 };
 
-//parses json data
-d3.json('data.json', function(error, vData) {
-     if (error) throw error;
-     drawSunburst(vData);
-     console.log("d4");
+//parses json data d3v4
+// d3.json('data.json', function(error, vData) {
+//      if (error) throw error;
+//      drawSunburst(vData);
+//      console.log("v4");
+// });
+
+//parses json data d3v5
+d3.json("data.json", function(vData) {
+    console.log(vData);
 });
+
 
 //draws the sunburst
 function drawSunburst(data) {
