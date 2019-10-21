@@ -122,6 +122,7 @@ a:hover, a:active, .linkish:hover, .linkish:active {
 }
 
 #ex {
+  transform: scale(0.7);
   position: absolute;
   align-items: center;
   width: 95%;
