@@ -51,6 +51,7 @@ function exBye() {
 d3.json('data.json', function(error, vData) {
      if (error) throw error;
      drawSunburst(vData);
+     console.log("d4");
 });
 
 //draws the sunburst
