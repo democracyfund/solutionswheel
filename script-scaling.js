@@ -128,7 +128,7 @@ function drawSunburst(data) {
           if (d.data.examples[i].url){
             ex.append("li")
                 .append("a")
-                  .text(d.data.examples[i].text)
+                  .html(d.data.examples[i].text)
                   .attr("href", d.data.examples[i].url)
                   .attr("target", "_blank");
           } else {
